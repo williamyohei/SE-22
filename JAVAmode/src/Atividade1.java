@@ -1,4 +1,4 @@
-public class Atividade1_williamyohei {
+public class Atividade1 {
     private double a=16807;
     private double c=0;
     private double M=Math.pow(2,31)-1;
@@ -27,7 +27,7 @@ public class Atividade1_williamyohei {
     }
     public static void main(String[] args) {
 
-        Atividade1_williamyohei mgl=new Atividade1_williamyohei();
+        Atividade1 mgl=new Atividade1();
         double m = (Math.pow(2,31)-1);
         for (int i=0;i<10;i++){
             double x=mgl.calc();
